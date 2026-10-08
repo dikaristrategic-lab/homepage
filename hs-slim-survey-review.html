@@ -1,0 +1,223 @@
+<title>Survei HS Slim</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: laporan satu kolom (maks 880px). Ringkasan di atas, lalu bagian data, lalu implikasi strategi. Bar horizontal berlabel langsung. */
+:root{
+  --bg:#f3f6f5; --surface:#ffffff; --ink:#13201d; --muted:#5b6b67; --line:#d9e2df;
+  --accent:#0d6b5b; --accent-soft:#d6ebe5; --bar:#b9cdc8; --warn:#a4561c; --warn-soft:#f6e6d8;
+  --f-display:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
+  --f-body:'Public Sans','Segoe UI',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1816; --surface:#16231f; --ink:#e7f0ed; --muted:#98aca6; --line:#26373f;
+  --accent:#4cc3a9; --accent-soft:#1c3a33; --bar:#3a4f4a; --warn:#e5a06b; --warn-soft:#3a2a1c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1816; --surface:#16231f; --ink:#e7f0ed; --muted:#98aca6; --line:#26373f;
+  --accent:#4cc3a9; --accent-soft:#1c3a33; --bar:#3a4f4a; --warn:#e5a06b; --warn-soft:#3a2a1c; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;padding-inline:16px}
+.wrap{max-width:880px;margin-inline:auto;padding-block:32px 64px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(30px,6vw,46px);font-weight:700}
+h2{font-size:24px;font-weight:700}
+h3{font-size:16px;font-weight:500;color:var(--muted)}
+p{margin:0}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.lead{color:var(--muted);max-width:65ch;margin-top:10px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--muted);font-size:13px;margin-top:14px}
+section{display:flex;flex-direction:column;gap:16px;min-width:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px;min-width:0}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px}
+.take{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr))}
+.take .card strong{font-family:var(--f-display);font-size:17px;display:block;margin-bottom:4px}
+.take .big{font-family:var(--f-display);font-size:30px;font-weight:700;color:var(--accent);line-height:1}
+.note{background:var(--warn-soft);border:1px solid var(--line);border-radius:8px;padding:14px 16px;font-size:14px}
+.note b{color:var(--warn)}
+.bars{display:flex;flex-direction:column;gap:9px;margin-top:10px}
+.row{display:grid;grid-template-columns:minmax(90px,38%) 1fr 48px;align-items:center;gap:10px;font-size:13.5px}
+.row .lab{min-width:0;overflow-wrap:anywhere}
+.track{height:10px;background:var(--line);border-radius:5px;position:relative;overflow:hidden}
+.fill{position:absolute;inset:0 auto 0 0;background:var(--bar);border-radius:5px}
+.row.hi .fill{background:var(--accent)}
+.row .val{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{padding:9px 10px;text-align:right;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+th{font-weight:600;color:var(--muted);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+td.best{color:var(--accent);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:3px 10px;font-size:12.5px}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.act{display:grid;gap:12px}
+.act .card{display:grid;grid-template-columns:minmax(0,150px) 1fr;gap:6px 16px}
+.act .tag{font-family:var(--f-display);font-weight:700;color:var(--accent)}
+@media (max-width:520px){.act .card{grid-template-columns:1fr}.row{grid-template-columns:minmax(80px,40%) 1fr 44px}}
+.small{font-size:12.5px;color:var(--muted)}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Survei HS Slim · Semua Varian · Oktober 2026</div>
+  <h1>Survei HS Slim: temuan awal sebagai fondasi strategi dan aktivasi</h1>
+  <p class="lead">Review ini merangkum survei konsumen di area Yogyakarta untuk lima varian HS Slim: Original, Menthol, Purple, Super Mint, dan Double Click. Semua angka disajikan dalam persentase. Lokasi dikelompokkan ke wilayah umum di Jogja, bukan nama tempat.</p>
+  <div class="meta"><span>Periode: 6–8 Oktober 2026</span><span>Wilayah: Sleman, Kota Yogyakarta, Bantul</span><span>Sampel kecil, bacaan bersifat indikatif</span></div>
+</header>
+
+<section>
+  <h2>Ringkasan temuan</h2>
+  <div class="take">
+    <div class="card"><div class="big">93%</div><strong>Double Click paling meyakinkan</strong><p>Dari yang sudah mencoba, 93% memberi skor 4–5 dan 67% menjawab "pasti beli", tertinggi di semua varian. Sejajar dengan "belum ada yang cocok" sebagai pilihan favorit terbanyak (masing-masing 27%).</p></div>
+    <div class="card"><div class="big">27%</div><strong>Ruang kosong terbesar: belum ada yang cocok</strong><p>Responden ini paling sering meminta rasa lebih kuat, cocok untuk perokok berat, atau tipe "putihan". Angkanya lebih tinggi pada laki-laki (35%) dibanding perempuan (15%).</p></div>
+    <div class="card"><div class="big">90%</div><strong>Super Mint kuat di kesan, ragu di keputusan</strong><p>90% peminumnya memberi skor 4–5 dan 80% menyebut kesan segar atau dingin. Namun hanya 33% yang "pasti beli" dan 22% masih ragu.</p></div>
+    <div class="card"><div class="big">3,2</div><strong>Menthol perlu dibenahi lebih dulu</strong><p>Skor rata-rata terendah (dari 5), hanya 17% memberi 4–5, dan komentarnya cenderung "flat" atau "kurang nendang". Minat beli ada, tapi hampir semuanya sebatas "mungkin".</p></div>
+  </div>
+  <div class="note"><b>Cara membaca angka.</b> Sekitar 71% responden hanya mencoba satu varian. Skor antarvarian dinilai oleh orang yang berbeda, jadi ini bukan adu langsung. Persentase per varian dihitung dari mereka yang sudah mencoba varian itu, dan basisnya kecil. Pakai untuk menentukan arah dan hipotesis, belum untuk keputusan angka final.</div>
+</section>
+
+<section>
+  <h2>Siapa yang kita survei</h2>
+  <div class="grid2">
+    <div class="card"><h3>Wilayah responden</h3><div class="bars" id="b-wilayah"></div><p class="small" style="margin-top:10px">Titik "Kantor" dipetakan ke Bantul. Seturan, Jakal (Jl. Kaliurang), Kalasan, dan Karangwuni masuk Sleman. Sebagian lokasi hanya berupa nama kafe yang lokasinya belum bisa dipastikan, jadi ditandai belum terverifikasi.</p></div>
+    <div class="card"><h3>Status merokok</h3><div class="bars" id="b-perokok"></div><h3 style="margin-top:18px">Pernah dengar HS sebelumnya?</h3><div class="bars" id="b-first"></div></div>
+    <div class="card"><h3>Pekerjaan</h3><div class="bars" id="b-job"></div></div>
+    <div class="card"><h3>Rata-rata pengeluaran per bulan</h3><div class="bars" id="b-spend"></div><h3 style="margin-top:18px">Kelompok usia (rata-rata sekitar 23 tahun)</h3><div class="bars" id="b-age"></div><h3 style="margin-top:18px">Gender</h3><div class="bars" id="b-gender"></div></div>
+  </div>
+  <p>Profilnya muda dan urban: mayoritas 22–23 tahun, perokok aktif, dengan porsi pelajar/mahasiswa terbesar disusul wiraswasta dan freelancer. Satu dari empat responden bukan perokok, jadi penilaian mereka perlu dibaca terpisah.</p>
+</section>
+
+<section>
+  <h2>Kartu skor per varian</h2>
+  <div class="card tablewrap">
+  <table>
+    <thead><tr><th>Varian</th><th>Sudah coba</th><th>Skor rata-rata (1–5)</th><th>Skor 4–5</th><th>Pasti beli</th><th>Pasti + mungkin beli</th><th>Jadi favorit</th></tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  </div>
+  <p class="small">"Sudah coba" dihitung dari seluruh responden. Skor, niat beli, dan situasi dihitung dari mereka yang sudah mencoba varian tersebut. Favorit dihitung dari seluruh responden.</p>
+</section>
+
+<section>
+  <h2>Favorit dan niat beli</h2>
+  <div class="grid2">
+    <div class="card"><h3>Varian favorit (semua responden)</h3><div class="bars" id="b-fav"></div></div>
+    <div class="card"><h3>Niat "pasti beli" (dari yang sudah mencoba)</h3><div class="bars" id="b-pasti"></div>
+      <p class="small" style="margin-top:10px">Double Click unggul jelas pada keyakinan membeli. Original, Menthol, dan Purple lebih banyak jatuh ke "mungkin beli", yang artinya ada minat tapi belum ada alasan kuat untuk pindah.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Kapan dinikmati dan kenapa disukai</h2>
+  <div class="grid2">
+    <div class="card"><h3>Situasi paling cocok, Double Click</h3><div class="bars" id="b-sit-dc"></div></div>
+    <div class="card"><h3>Situasi paling cocok, Super Mint</h3><div class="bars" id="b-sit-sm"></div></div>
+  </div>
+  <p>Hampir semua varian punya tempat yang sama: <b>nongkrong bareng teman</b> (90–100% untuk Purple, Super Mint, dan Double Click), disusul acara/pesta dan santai di rumah. Menurut responden, Double Click paling fleksibel karena juga disebut untuk dalam perjalanan, saat bekerja, dan ngopi.</p>
+  <div class="card">
+    <h3>Tema dari komentar rasa (dari yang sudah mencoba)</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Tema</th><th>Original</th><th>Menthol</th><th>Purple</th><th>Super Mint</th><th>Double Click</th></tr></thead>
+      <tbody id="themes"></tbody>
+    </table></div>
+    <div class="chips"><span class="chip">Segar/dingin dominan di Super Mint</span><span class="chip">Purple dibaca "kalem/soft"</span><span class="chip">Double Click dipuji "enak" dan buah (jeruk)</span><span class="chip">Beberapa membandingkan dengan Esse</span></div>
+  </div>
+  <div class="card">
+    <h3>Saran dan masukan (dari responden yang menulis saran)</h3>
+    <div class="bars" id="b-saran"></div>
+    <p class="small" style="margin-top:10px">Keluhan yang berulang pada Double Click: rokok cepat habis sehingga kurang cocok untuk acara panjang atau klub, serta sensasi tenggorokan pada sebagian orang. Ada juga masukan harga terasa tinggi untuk rokok yang cepat habis.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Perbedaan antar segmen</h2>
+  <div class="grid2">
+    <div class="card"><h3>Favorit menurut wilayah</h3>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Wilayah</th><th>Porsi</th><th>Baru tahu HS</th><th>Favorit teratas</th></tr></thead>
+        <tbody>
+          <tr><td>Sleman</td><td>61%</td><td>28%</td><td>Belum cocok 36%</td></tr>
+          <tr><td>Kota Yogyakarta</td><td>17%</td><td>29%</td><td>Original 43%</td></tr>
+          <tr><td>Bantul</td><td>10%</td><td>0%</td><td>Double Click 50%</td></tr>
+          <tr><td>Belum terverifikasi</td><td>12%</td><td>60%</td><td>Double Click 40%</td></tr>
+        </tbody></table></div>
+      <p class="small" style="margin-top:10px">Bantul dan Kota Yogyakarta berbasis sangat kecil, jadi lihat polanya saja. Semua responden Bantul sudah mengenal HS sebelumnya.</p></div>
+    <div class="card"><h3>Favorit menurut gender</h3>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Gender</th><th>Favorit teratas</th><th>Kedua</th></tr></thead>
+        <tbody>
+          <tr><td>Perempuan</td><td>Double Click 35%</td><td>Purple 20%</td></tr>
+          <tr><td>Laki-laki</td><td>Belum cocok 35%</td><td>Double Click 20%</td></tr>
+        </tbody></table></div>
+      <h3 style="margin-top:18px">Favorit menurut status merokok</h3>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Status</th><th>Favorit teratas</th></tr></thead>
+        <tbody>
+          <tr><td>Perokok aktif</td><td>Double Click 32%</td></tr>
+          <tr><td>Bukan perokok</td><td>Belum cocok 50%, Menthol 20%</td></tr>
+        </tbody></table></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Implikasi untuk strategi dan aktivasi</h2>
+  <div class="act">
+    <div class="card"><div class="tag">Pimpin dengan Double Click</div><p>Jadikan varian utama untuk sampling dan konten. Skor, keyakinan beli, dan favorit semuanya kuat, dan pemakainya relatif beragam (perempuan, laki-laki, perokok aktif). Jangan klaim "untuk klub atau acara panjang"; pakai momen nongkrong dan jeda singkat, karena keluhan cepat habis muncul justru di sana.</p></div>
+    <div class="card"><div class="tag">Super Mint untuk pencari segar</div><p>Kesan segarnya paling jelas, tapi keyakinan beli masih setengah hati. Aktivasi sebaiknya membuka kesempatan mencoba ulang dan menjawab keraguan (kekuatan, rasa), bukan hanya awareness.</p></div>
+    <div class="card"><div class="tag">Purple untuk yang suka kalem</div><p>Dibaca lembut dan menyegarkan, cocok untuk nongkrong santai. Perempuan lebih banyak memilihnya. Uji sebagai varian pendamping untuk target perempuan muda.</p></div>
+    <div class="card"><div class="tag">Original dan Menthol</div><p>Original punya penggemar di Kota Yogyakarta (mayoritas pelajar), tetapi sebagian menganggapnya terlalu ringan untuk perokok berat. Menthol sebaiknya tidak diprioritaskan sampai rasa dan tarikannya diperbaiki; anggaran aktivasi lebih baik ke varian di atas.</p></div>
+    <div class="card"><div class="tag">Ruang kosong: rasa lebih kuat</div><p>Seperempat responden belum menemukan varian yang cocok, terutama laki-laki dan perokok berat. Validasi dulu dengan survei singkat ke perokok berat (preferensi body, tipe putihan, harga) sebelum memutuskan pengembangan produk baru.</p></div>
+    <div class="card"><div class="tag">Prioritas wilayah</div><p>Di Sleman, pasar terbesar, sekitar sepertiga responden masih baru mengenal HS, jadi fokusnya pengenalan dan trial. Di Bantul, semua responden sudah tahu, jadi fokusnya ketersediaan di titik beli dan konversi dari trial ke pembelian. Wilayah ini masih perlu sampel lebih besar sebelum dijadikan target utama.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Batasan data dan langkah berikutnya</h2>
+  <div class="card">
+    <ul>
+      <li>Sampel kecil dan terkonsentrasi di Sleman (61%). Bantul dan Kota Yogyakarta hanya sedikit, jadi perbedaan antarwilayah masih berupa petunjuk.</li>
+      <li>Sebagian besar hanya mencoba satu varian, sehingga perbandingan antarvarian belum adil. Survei lanjutan sebaiknya meminta setiap responden mencoba minimal dua varian secara blind.</li>
+      <li>Hampir semua responden pernah mencoba setidaknya satu varian karena lokasi survei berbasis sampling. Angka "sudah coba" menggambarkan sebaran sampling, bukan penetrasi pasar.</li>
+      <li>Ada responden yang menilai varian yang belum dicoba. Nilai itu dikeluarkan dari analisis rating, dan niat beli mereka dibaca sebagai minat konsep saja.</li>
+      <li>Perlu data tambahan: merek yang biasa dihisap, harga yang dianggap wajar, dan titik beli yang biasa dipakai.</li>
+      <li>Dua lokasi berupa nama kafe belum bisa dipastikan wilayahnya. Setelah dikonfirmasi, kategori "belum terverifikasi" bisa dipindahkan ke wilayah yang tepat.</li>
+    </ul>
+  </div>
+</section>
+</div>
+
+<script>
+function bars(id,items,hi){
+  var el=document.getElementById(id); if(!el) return;
+  var max=Math.max.apply(null,items.map(function(i){return i[1]}));
+  el.innerHTML=items.map(function(i,k){
+    var h=(hi===undefined?k===0:hi.indexOf(i[0])>-1);
+    return '<div class="row'+(h?' hi':'')+'"><span class="lab">'+i[0]+'</span><span class="track"><span class="fill" style="width:'+(i[1]/max*100)+'%"></span></span><span class="val">'+String(i[1]).replace('.',',')+'%</span></div>';
+  }).join('');
+}
+bars('b-wilayah',[['Sleman',61],['Kota Yogyakarta',17.1],['Belum terverifikasi',12.2],['Bantul',9.8]]);
+bars('b-perokok',[['Perokok aktif',68.3],['Bukan perokok',24.4],['Jarang / sosial',7.3]]);
+bars('b-first',[['Sudah tahu sebelumnya',70.7],['Baru pertama tahu',29.3]]);
+bars('b-job',[['Pelajar / Mahasiswa',34.1],['Wiraswasta',22],['Freelancer',19.5],['Karyawan swasta',12.2],['Lainnya',12.2]]);
+bars('b-spend',[['≤ 2 jt',34.1],['2,1–3 jt',34.1],['> 3 jt',29.3],['Tidak spesifik',2.4]],['≤ 2 jt','2,1–3 jt']);
+bars('b-age',[['22–23 tahun',51.2],['≤ 21 tahun',24.4],['24 tahun ke atas',24.4]]);
+bars('b-gender',[['Perempuan',48.8],['Laki-laki',48.8],['Tidak diisi',2.4]],['Perempuan','Laki-laki']);
+bars('b-fav',[['Double Click',26.8],['Belum ada yang cocok',26.8],['Super Mint',14.6],['Purple',12.2],['Original',9.8],['Menthol',7.3],['Tidak diisi',2.4]],['Double Click','Belum ada yang cocok']);
+bars('b-pasti',[['Double Click',66.7],['Super Mint',33.3],['Purple',26.7],['Menthol',16.7],['Original',11.1]]);
+bars('b-sit-dc',[['Nongkrong bareng teman',100],['Santai di rumah',46.7],['Acara / pesta',40],['Setelah makan',33.3],['Dalam perjalanan',33.3],['Saat bekerja',26.7]]);
+bars('b-sit-sm',[['Nongkrong bareng teman',90],['Acara / pesta',50],['Santai di rumah',40],['Saat bekerja',20],['Setelah makan',20],['Dalam perjalanan',10]]);
+bars('b-saran',[['Varian / rasa baru, tipe putihan',22.2],['Lebih kuat untuk perokok berat',16.7],['Rokok cepat habis',16.7],['Positioning anak muda / klub',16.7],['Lebih soft / ringan',5.6],['Harga',5.6]]);
+var rows=[
+['Double Click',36.6,4.27,93.3,66.7,86.7,26.8],
+['Super Mint',24.4,4.2,90,33.3,77.8,14.6],
+['Original',22,4.0,77.8,11.1,88.9,9.8],
+['Purple',36.6,3.87,60,26.7,93.3,12.2],
+['Menthol',14.6,3.17,16.7,16.7,100,7.3]];
+function f(x,d){return x.toFixed(d||1).replace('.',',')}
+document.getElementById('tbody').innerHTML=rows.map(function(r,i){
+  return '<tr><td>'+r[0]+'</td><td>'+f(r[1])+'%</td><td'+(i==0?' class="best"':'')+'>'+f(r[2],2)+'</td><td'+(i==0?' class="best"':'')+'>'+f(r[3])+'%</td><td'+(i==0?' class="best"':'')+'>'+f(r[4])+'%</td><td>'+f(r[5])+'%</td><td'+(i==0?' class="best"':'')+'>'+f(r[6])+'%</td></tr>';
+}).join('');
+var th=[['Segar / dingin / adem',33.3,66.7,40,80,53.3],['Kalem / soft / ringan',22.2,0,46.7,40,6.7],['Manis / buah / jeruk / apel',22.2,0,33.3,0,40],['Enak (umum)',33.3,33.3,33.3,50,80],['Keluhan tenggorokan',11.1,16.7,6.7,0,13.3],['Kurang kuat / flat',0,16.7,6.7,10,0]];
+document.getElementById('themes').innerHTML=th.map(function(r){
+  return '<tr><td>'+r[0]+'</td>'+r.slice(1).map(function(v){return '<td>'+f(v,0)+'%</td>'}).join('')+'</tr>';
+}).join('');
+</script>
