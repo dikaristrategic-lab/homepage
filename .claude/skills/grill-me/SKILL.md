@@ -1,6 +1,6 @@
 ---
 name: grill-me
-description: Interview the user relentlessly about a plan, idea, or design until reaching shared understanding, resolving each branch of the decision tree one question at a time. Use when the user wants to stress-test a plan, get grilled on a design or strategy, or says "grill me", "grill aku", or "uji rencana ini".
+description: Interview the user relentlessly about a plan before giving recommendations, resolving each branch of the decision tree one question at a time with a recommended answer for each. Use proactively whenever the user presents a plan, strategy, campaign, launch, pricing, hiring, process change, or any decision with real money, time, or people at stake that has not been stress-tested yet, even if they never say "grill me". Also use when they say "grill me", "grill aku", "uji rencana ini", or "stress-test this". Do not use for simple factual questions, quick edits, routine tasks, or when the user says "skip grill".
 ---
 
 Interview me relentlessly about every aspect of this plan until we reach a shared understanding.
