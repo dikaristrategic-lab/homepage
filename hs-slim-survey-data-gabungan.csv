@@ -1,0 +1,106 @@
+﻿id,sumber_form,tanggal,gender,usia_grup,wilayah,status_merokok,pekerjaan,pengeluaran_per_bulan,baru_pertama_tahu_HS,coba_Original,coba_Menthol,coba_Purple,coba_Super Mint,coba_Double Click,skor_Original,skor_Menthol,skor_Purple,skor_Super Mint,skor_Double Click,niat_beli_Original,niat_beli_Menthol,niat_beli_Purple,niat_beli_Super Mint,niat_beli_Double Click,varian_favorit,kategori_saran
+F1-01,Form 1,2026-10-06,Tidak diisi,21–25,Bantul,Bukan perokok,Freelancer,"3–3,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,4,,,,,Mungkin beli,Belum ada yang cocok,Harga
+F1-02,Form 1,2026-10-06,Perempuan,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,3,,,,,Tidak beli,,,,,Original,
+F1-03,Form 1,2026-10-06,Laki-laki,21–25,Sleman,Perokok aktif,Pelajar / Mahasiswa,"3–3,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,2,,,,,Ragu-ragu,Double Click,Rasa & aroma tembakau
+F1-04,Form 1,2026-10-06,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"3–3,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Mungkin beli,,,Purple,Sudah puas / apresiasi
+F1-05,Form 1,2026-10-06,Perempuan,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,4,,,,,Pasti beli,Double Click,Rasa & aroma tembakau
+F1-07,Form 1,2026-10-06,Perempuan,21–25,Venue / jalan (belum dipetakan),Perokok aktif,Lainnya,"4–4,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Ya,,,5,,5,,,Pasti beli,,Pasti beli,Double Click,
+F1-09,Form 1,2026-10-06,Laki-laki,21–25,Venue / jalan (belum dipetakan),Bukan perokok,Karyawan swasta,"1–1,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Tidak,,,,4,,,,,Pasti beli,,Super Mint,Rasa & aroma tembakau
+F1-10,Form 1,2026-10-06,Laki-laki,21–25,Venue / jalan (belum dipetakan),Perokok tidak rutin,Pelajar / Mahasiswa,"2–2,9 jt",Ya,Tidak,Tidak,Tidak,Tidak,Ya,,,,,4,,,,,Ragu-ragu,Double Click,Sudah puas / apresiasi
+F1-11,Form 1,2026-10-06,Perempuan,21–25,Sleman,Bukan perokok,Lainnya,"2–2,9 jt",Tidak,Tidak,Ya,Tidak,Tidak,Tidak,,4,,,,,Mungkin beli,,,,Menthol,
+F1-12,Form 1,2026-10-06,Perempuan,21–25,Sleman,Perokok aktif,Karyawan swasta,"3–3,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,5,,,,,Pasti beli,Double Click,Ukuran batang / isi
+F1-13,Form 1,2026-10-06,Perempuan,21–25,Sleman,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,4,,,,,Pasti beli,Double Click,
+F1-14,Form 1,2026-10-06,Perempuan,21–25,Sleman,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Ya,Tidak,Tidak,Ya,,3,,,5,,Pasti beli,,,Pasti beli,Double Click,Sudah puas / apresiasi
+F1-15,Form 1,2026-10-06,Perempuan,21–25,Sleman,Perokok aktif,Karyawan swasta,"2–2,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Tidak,,,,5,,,,,Pasti beli,,Super Mint,Sudah puas / apresiasi
+F1-16,Form 1,2026-10-06,Perempuan,21–25,Sleman,Perokok aktif,Wiraswasta,"4–4,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,5,,,,,Pasti beli,Double Click,Ukuran batang / isi
+F1-17,Form 1,2026-10-06,Laki-laki,21–25,Sleman,Perokok aktif,Freelancer,"3–3,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Mungkin beli,,,,,Original,Rasa & aroma tembakau
+F1-18,Form 1,2026-10-07,Perempuan,21–25,Venue / jalan (belum dipetakan),Bukan perokok,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,4,,,,,Pasti beli,Double Click,
+F1-19,Form 1,2026-10-07,Perempuan,21–25,Sleman,Bukan perokok,Lainnya,Tidak spesifik,Tidak,Ya,Tidak,Ya,Tidak,Ya,5,,3,,4,Mungkin beli,,Mungkin beli,,Mungkin beli,Menthol,Varian rasa baru
+F1-20,Form 1,2026-10-07,Perempuan,21–25,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"4–4,9 jt",Tidak,Ya,Tidak,Tidak,Ya,Tidak,4,,,5,,Mungkin beli,,,Mungkin beli,,Super Mint,
+F1-21,Form 1,2026-10-07,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"3–3,9 jt",Tidak,Ya,Tidak,Tidak,Ya,Ya,4,,,5,4,Mungkin beli,,,Pasti beli,Pasti beli,Super Mint,
+F1-22,Form 1,2026-10-07,Laki-laki,21–25,Bantul,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Ya,Tidak,Tidak,Tidak,,3,,,,,Mungkin beli,,,,Menthol,Varian rasa baru
+F1-23,Form 1,2026-10-07,Perempuan,21–25,Sleman,Perokok aktif,Freelancer,Tidak spesifik,Tidak,Tidak,Ya,Ya,Tidak,Tidak,,3,5,,,,Mungkin beli,Pasti beli,,,Purple,
+F1-24,Form 1,2026-10-07,Perempuan,21–25,Sleman,Perokok tidak rutin,Lainnya,"1–1,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Mungkin beli,,,Purple,
+F1-25,Form 1,2026-10-07,Laki-laki,26–30,Sleman,Bukan perokok,Wiraswasta,"3–3,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Mungkin beli,,,Belum ada yang cocok,
+F1-26,Form 1,2026-10-07,Perempuan,26–30,Sleman,Bukan perokok,Wiraswasta,"4–4,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Mungkin beli,,,Belum ada yang cocok,
+F1-27,Form 1,2026-10-07,Laki-laki,21–25,Sleman,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Tidak,,,,4,,,,,Mungkin beli,,Super Mint,
+F1-28,Form 1,2026-10-07,Laki-laki,26–30,Sleman,Bukan perokok,Wiraswasta,"4–4,9 jt",Ya,Tidak,Tidak,Tidak,Ya,Tidak,,,,4,,,,,Mungkin beli,,Belum ada yang cocok,
+F1-29,Form 1,2026-10-07,Laki-laki,26–30,Sleman,Bukan perokok,Wiraswasta,"5–6,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Mungkin beli,,,Belum ada yang cocok,
+F1-30,Form 1,2026-10-07,Perempuan,21–25,Sleman,Perokok tidak rutin,Lainnya,"2–2,9 jt",Ya,Tidak,Tidak,Tidak,Ya,Tidak,,,,4,,,,,Mungkin beli,,Super Mint,
+F1-31,Form 1,2026-10-07,Perempuan,21–25,Sleman,Perokok aktif,Pelajar / Mahasiswa,"3–3,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Mungkin beli,,,Purple,
+F1-32,Form 1,2026-10-07,Laki-laki,21–25,Sleman,Perokok aktif,Karyawan swasta,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Mungkin beli,,,Belum ada yang cocok,
+F1-33,Form 1,2026-10-07,Perempuan,21–25,Sleman,Perokok aktif,Wiraswasta,"3–3,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Mungkin beli,,,Belum ada yang cocok,
+F1-34,Form 1,2026-10-07,Perempuan,21–25,Sleman,Perokok aktif,Wiraswasta,"4–4,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Pasti beli,,,Purple,
+F1-35,Form 1,2026-10-07,Perempuan,21–25,Sleman,Perokok aktif,Wiraswasta,"5–6,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Pasti beli,,,Belum ada yang cocok,
+F1-36,Form 1,2026-10-08,Laki-laki,26–30,Sleman,Perokok aktif,Freelancer,"3–3,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Tidak,,,,3,,,,,Ragu-ragu,,Belum ada yang cocok,
+F1-37,Form 1,2026-10-08,Laki-laki,21–25,Sleman,Perokok aktif,Wiraswasta,"4–4,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Tidak,,,,4,,,,,,,Belum ada yang cocok,
+F1-38,Form 1,2026-10-08,Laki-laki,21–25,Bantul,Perokok aktif,Freelancer,"2–2,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Ya,3,,,,4,Mungkin beli,,,,Mungkin beli,Double Click,
+F1-39,Form 1,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"3–3,9 jt",Ya,Ya,Tidak,Ya,Tidak,Ya,4,,3,,5,Mungkin beli,,Ragu-ragu,,Pasti beli,Original,
+F1-40,Form 1,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Bukan perokok,Pelajar / Mahasiswa,"1–1,9 jt",Ya,Ya,Ya,Tidak,Tidak,Tidak,4,3,,,,Mungkin beli,Mungkin beli,,,,Original,Konsistensi & fokus rasa
+F1-41,Form 1,2026-10-08,Laki-laki,21–25,Bantul,Perokok aktif,Karyawan swasta,"2–2,9 jt",Tidak,Ya,Ya,Ya,Ya,Ya,5,3,4,4,5,Pasti beli,Mungkin beli,Mungkin beli,Ragu-ragu,Pasti beli,Double Click,Varian rasa baru
+F1-42,Form 1,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Wiraswasta,"3–3,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Ya,,,,2,5,,,,Ragu-ragu,Pasti beli,Double Click,
+F1-43,Form 1,2026-10-08,Laki-laki,21–25,Venue / jalan (belum dipetakan),Bukan perokok,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Ya,Tidak,Ya,Ya,,4,,4,5,,Mungkin beli,,Pasti beli,Pasti beli,Double Click,Ukuran batang / isi
+F1-44,Form 1,2026-10-08,Laki-laki,36–44,Bantul,Perokok aktif,Wiraswasta,Tidak spesifik,Tidak,Ya,Tidak,Tidak,Ya,Ya,3,,,4,3,Ragu-ragu,,,Mungkin beli,Ragu-ragu,Super Mint,Rasa & aroma tembakau
+F1-45,Form 1,2026-10-08,Perempuan,26–30,Luar DIY,Perokok aktif,Lainnya,"5–6,9 jt",Ya,Ya,Ya,Ya,Ya,Ya,4,5,4,4,5,Mungkin beli,Pasti beli,Mungkin beli,Mungkin beli,Pasti beli,Double Click,Rasa & aroma tembakau
+F1-46,Form 1,2026-10-08,Laki-laki,26–30,Sleman,Perokok aktif,Wiraswasta,"5–6,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Mungkin beli,,,Belum ada yang cocok,
+F1-47,Form 1,2026-10-08,Laki-laki,21–25,Sleman,Perokok aktif,Karyawan swasta,"2–2,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Tidak,,,,4,,,,,Mungkin beli,,Super Mint,
+F1-48,Form 1,2026-10-09,Perempuan,21–25,Bantul,Perokok aktif,Pelajar / Mahasiswa,<1 jt,Tidak,Ya,Ya,Ya,Tidak,Tidak,5,5,5,,,Mungkin beli,Pasti beli,Pasti beli,,,Purple,
+F1-49,Form 1,2026-10-09,Perempuan,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Ya,Tidak,Ya,Ya,Tidak,Ya,,5,5,,5,,Pasti beli,Pasti beli,,Pasti beli,Double Click,Varian rasa baru
+F1-50,Form 1,2026-10-09,Perempuan,21–25,Venue / jalan (belum dipetakan),Bukan perokok,Pelajar / Mahasiswa,Tidak spesifik,Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Mungkin beli,,,Purple,
+F1-51,Form 1,2026-10-10,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Ya,Ya,Ya,Tidak,Tidak,3,3,4,,,Ragu-ragu,Ragu-ragu,Ragu-ragu,,,Purple,Sudah puas / apresiasi
+F1-52,Form 1,2026-10-10,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Tidak,Tidak,Ya,,,,,5,,,,,Pasti beli,Double Click,
+F2-01,Form 2,2026-10-08,Laki-laki,21–25,Bantul,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Ya,Ya,Tidak,Tidak,Tidak,,,,,,,,,,,Menthol,
+F2-02,Form 2,2026-10-08,Laki-laki,21–25,Bantul,Perokok aktif,Freelancer,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Pasti beli,,,Purple,Rasa & aroma tembakau
+F2-04,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Ya,Ya,Tidak,Tidak,,,,,,,,,,,Purple,
+F2-05,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Ya,Tidak,Ya,Tidak,Tidak,Tidak,,5,,,,,Mungkin beli,,,,Menthol,
+F2-06,Form 2,2026-10-08,Laki-laki,21–25,Bantul,Perokok aktif,Freelancer,"3–3,9 jt",Tidak,Tidak,Ya,Ya,Tidak,Tidak,,,,,,,,,,,Menthol,
+F2-07,Form 2,2026-10-08,Laki-laki,21–25,Bantul,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Ya,Tidak,Ya,Tidak,Tidak,,,,,,,,,,,Original,Sudah puas / apresiasi
+F2-08,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"1–1,9 jt",Ya,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Mungkin beli,,,,,Original,Harga
+F2-09,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"2–2,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Mungkin beli,,,,,Original,Sudah puas / apresiasi
+F2-10,Form 2,2026-10-08,Laki-laki,21–25,Luar DIY,Perokok aktif,Wiraswasta,"3–3,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Mungkin beli,,,Super Mint,
+F2-11,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"1–1,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,5,,,,,Pasti beli,,,,,Original,Rasa & aroma tembakau
+F2-12,Form 2,2026-10-08,Laki-laki,21–25,Luar DIY,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Ya,Ya,Tidak,Tidak,Tidak,Tidak,3,,,,,Pasti beli,,,,,Menthol,Rasa & aroma tembakau
+F2-13,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"1–1,9 jt",Ya,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Mungkin beli,,,,,Original,
+F2-14,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"1–1,9 jt",Ya,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Mungkin beli,,,,,Original,Rasa & aroma tembakau
+F2-15,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Karyawan swasta,"1–1,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Mungkin beli,,,Double Click,"Promosi, event & komunitas"
+F2-16,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Mungkin beli,,,Purple,Sudah puas / apresiasi
+F2-17,Form 2,2026-10-08,Laki-laki,31–35,Kota Yogyakarta / umum,Perokok aktif,Wiraswasta,"1–1,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Mungkin beli,,,Purple,Konsistensi & fokus rasa
+F2-18,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok tidak rutin,Pelajar / Mahasiswa,"3–3,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Pasti beli,,,Double Click,Sudah puas / apresiasi
+F2-19,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"3–3,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Pasti beli,,,Double Click,Rasa & aroma tembakau
+F2-20,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Pasti beli,,,Purple,
+F2-21,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Karyawan swasta,"2–2,9 jt",Ya,Ya,Tidak,Tidak,Tidak,Tidak,3,,,,,Mungkin beli,,,,,Belum ada yang cocok,Harga
+F2-22,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Mungkin beli,,,Purple,Sudah puas / apresiasi
+F2-23,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Ya,,,,,,,,,,,Purple,Ukuran batang / isi
+F2-24,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Mungkin beli,,,,,Original,Rasa & aroma tembakau
+F2-25,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,2,,,,,Tidak beli,,,Belum ada yang cocok,Rasa & aroma tembakau
+F2-26,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Beralih ke vape / pod,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Ragu-ragu,,,,,Purple,Rasa & aroma tembakau
+F2-27,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Bukan perokok,Lainnya,"1–1,9 jt",Tidak,Tidak,Tidak,Tidak,Ya,Tidak,,,,3,,,,,Tidak beli,,Belum ada yang cocok,Rasa & aroma tembakau
+F2-28,Form 2,2026-10-08,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Mungkin beli,,,Double Click,Sudah puas / apresiasi
+F2-29,Form 2,2026-10-09,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Pasti beli,,,Purple,Sudah puas / apresiasi
+F2-30,Form 2,2026-10-09,Laki-laki,21–25,Kota Yogyakarta / umum,Bukan perokok,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Ya,Ya,Ya,Ya,Ya,,,,,,,,,,,Purple,
+F2-31,Form 2,2026-10-09,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Karyawan swasta,"2–2,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Mungkin beli,,,Purple,Varian rasa baru
+F2-32,Form 2,2026-10-09,Laki-laki,26–30,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"3–3,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,4,,,,,Pasti beli,,,Purple,Harga
+F2-33,Form 2,2026-10-09,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Pasti beli,,,Purple,Konsistensi & fokus rasa
+F2-34,Form 2,2026-10-09,Perempuan,26–30,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"4–4,9 jt",Ya,Tidak,Tidak,Tidak,Tidak,Ya,,,,,1,,,,,Ragu-ragu,Belum ada yang cocok,Rasa & aroma tembakau
+F2-35,Form 2,2026-10-09,Laki-laki,21–25,Luar DIY,Perokok aktif,Freelancer,"1–1,9 jt",Ya,Ya,Tidak,Tidak,Tidak,Tidak,2,,,,,Mungkin beli,,,,,Original,Ukuran batang / isi
+F2-36,Form 2,2026-10-09,Laki-laki,21–25,Luar DIY,Bukan perokok,Karyawan swasta,"2–2,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,3,,,,,Ragu-ragu,,,Belum ada yang cocok,Rasa & aroma tembakau
+F2-37,Form 2,2026-10-09,Laki-laki,26–30,Kota Yogyakarta / umum,Perokok aktif,Wiraswasta,7–10 jt,Ya,Tidak,Ya,Tidak,Ya,Ya,,,,,,,,,,,Double Click,
+F2-38,Form 2,2026-10-09,Laki-laki,26–30,Kota Yogyakarta / umum,Perokok aktif,Freelancer,"5–6,9 jt",Tidak,Tidak,Ya,Ya,Ya,Ya,,,,,,,,,,,Double Click,
+F2-39,Form 2,2026-10-09,Perempuan,21–25,Kota Yogyakarta / umum,Perokok tidak rutin,Karyawan swasta,"2–2,9 jt",Ya,Tidak,Tidak,Ya,Tidak,Ya,,,,,,,,,,,Double Click,Harga
+F2-40,Form 2,2026-10-09,Perempuan,21–25,Kota Yogyakarta / umum,Perokok aktif,Karyawan swasta,"2–2,9 jt",Ya,Tidak,Ya,Ya,Tidak,Ya,,,,,,,,,,,Double Click,
+F2-41,Form 2,2026-10-09,Laki-laki,31–35,Kota Yogyakarta / umum,Beralih ke vape / pod,Wiraswasta,7–10 jt,Ya,Ya,Ya,Tidak,Tidak,Tidak,,,,,,,,,,,Original,
+F2-42,Form 2,2026-10-09,Laki-laki,21–25,Kota Yogyakarta / umum,Perokok tidak rutin,Pelajar / Mahasiswa,"3–3,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,3,,,,,Mungkin beli,,,,,Original,Ukuran batang / isi
+F2-43,Form 2,2026-10-10,Laki-laki,21–25,Luar DIY,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Mungkin beli,,,Double Click,Varian rasa baru
+F2-44,Form 2,2026-10-10,Laki-laki,21–25,Luar DIY,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Ya,Tidak,Tidak,Tidak,,5,,,,,Mungkin beli,,,,Menthol,Rasa & aroma tembakau
+F2-45,Form 2,2026-10-10,Laki-laki,21–25,Luar DIY,Perokok aktif,Pelajar / Mahasiswa,"2–2,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Tidak,,,5,,,,,Mungkin beli,,,Purple,Varian rasa baru
+F2-46,Form 2,2026-10-15,Laki-laki,21–25,Sleman,Perokok aktif,Lainnya,"4–4,9 jt",Tidak,Ya,Ya,Ya,Tidak,Ya,,,,,,,,,,,Purple,"Promosi, event & komunitas"
+F2-47,Form 2,2026-10-15,Perempuan,21–25,Kota Yogyakarta / umum,Perokok aktif,Karyawan swasta,"2–2,9 jt",Ya,Ya,Ya,Tidak,Tidak,Tidak,,,,,,,,,,,Original,Rasa & aroma tembakau
+F2-48,Form 2,2026-10-19,Laki-laki,31–35,Kulon Progo,Perokok aktif,Karyawan swasta,"2–2,9 jt",Tidak,Ya,Ya,Ya,Ya,Ya,,,,,,,,,,,Double Click,Ukuran batang / isi
+F2-49,Form 2,2026-10-19,Laki-laki,26–30,Venue / jalan (belum dipetakan),Perokok aktif,Lainnya,"2–2,9 jt",Tidak,Ya,Ya,Tidak,Ya,Ya,,,,,,,,,,,Double Click,Varian rasa baru
+F2-51,Form 2,2026-10-19,Laki-laki,36–44,Sleman,Perokok aktif,Karyawan swasta,>10 jt,Tidak,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Pasti beli,,,,,Original,Sudah puas / apresiasi
+F2-52,Form 2,2026-10-20,Laki-laki,31–35,Kota Yogyakarta / umum,Perokok aktif,Karyawan swasta,7–10 jt,Tidak,Ya,Ya,Ya,Ya,Ya,,,,,,,,,,,Original,Konsistensi & fokus rasa
+F2-53,Form 2,2026-10-20,Laki-laki,36–44,Kota Yogyakarta / umum,Bukan perokok,Karyawan swasta,"4–4,9 jt",Ya,Tidak,Ya,Tidak,Tidak,Tidak,,4,,,,,Pasti beli,,,,Menthol,Harga
+F2-54,Form 2,2026-10-20,Laki-laki,36–44,Kota Yogyakarta / umum,Perokok aktif,Karyawan swasta,"5–6,9 jt",Ya,Ya,Ya,Tidak,Ya,Ya,,,,,,,,,,,Double Click,Harga
+F2-55,Form 2,2026-10-20,Laki-laki,45+,Venue / jalan (belum dipetakan),Perokok tidak rutin,Wiraswasta,"1–1,9 jt",Tidak,Tidak,Tidak,Ya,Tidak,Ya,,,,,,,,,,,Double Click,"Promosi, event & komunitas"
+F2-56,Form 2,2026-10-20,Laki-laki,36–44,Venue / jalan (belum dipetakan),Perokok aktif,Wiraswasta,"4–4,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,5,,,,,Mungkin beli,,,,,Original,Konsistensi & fokus rasa
+F2-57,Form 2,2026-10-21,Laki-laki,26–30,Venue / jalan (belum dipetakan),Perokok aktif,Freelancer,"5–6,9 jt",Tidak,Ya,Tidak,Tidak,Tidak,Tidak,4,,,,,Mungkin beli,,,,,Original,"Promosi, event & komunitas"
